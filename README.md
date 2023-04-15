@@ -1,3 +1,10 @@
+At home page there are 4 pairs of radio buttons, each radio button is connected to one page. So, there are 8 pages. Task is user can selected minimun one or max 4 out of these oprtions. And you have to show the pages in the given order only. Like is user has selected option1A, option3B & option4A. Then whenever user clicks the submit button at home page, he will be navigated to the option1A page and at that page there is a "next page" button. On click of that button, user will go to the option3B page agin when he click the next he will be redirected to the option4A page.
+
+This same things is done for the "prev page" button also. 
+
+Here, I used the localstorage to store the user entered data. Then the used Object.event(obj).slice(0,1) to slice the object.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
